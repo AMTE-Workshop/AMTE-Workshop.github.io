@@ -30,7 +30,9 @@ Chair: [Insert Chair Name Here]
 * [Insert Time] - [Insert Time], [Break Type (e.g., Lunch Break)]
 
 <!-- Specify the time zone for clarity -->
-All times are in Central European Time ([UTC+1](https://www.timeanddate.com/worldclock/germany/dresden)).
+{% assign city = site.conf_city | split: ', ' | first | downcase %}
+{% assign country = site.conf_city | split: ', ' | last | downcase %}
+All times are in Central European Time ([UTC+1](https://www.timeanddate.com/worldclock/{{ city }}/{{ country }})).
 
 <!-- Add a link to the complete program if available -->
 #The complete EuroPar program is available at [https://2025.euro-par.org/program/](https://2025.euro-par.org/program/).
