@@ -1,3 +1,7 @@
+# This file is structured to hold this year's panel information.
+
+# Use the following template to populate the fields with up-to-date data:
+
 # moderator:
 #   name: Bryce Adelstein Lelbach
 #   affiliation: NVIDIA

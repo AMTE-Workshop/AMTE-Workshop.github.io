@@ -1,15 +1,18 @@
-speaker:
-  name: ""             # Enter the speaker's full name
-  # courtesy_title: "" # Uncomment and modify if applicable
-  affiliation: ""      # Enter the speaker's affiliation and institution details
-  country: ""          # Enter the speaker's country
-  photo: ""            # Enter the relative path to the speaker's photo
-  bio: >               # Enter a brief biography of the speaker
-    # Your bio here...
-title: ""              # Enter the keynote title for this year
-abstract: >           # Enter the abstract for the presentation
-  # Your abstract here...
-materials:
-  - title: ""          # Enter the title of the material (e.g., Slides, Video, Code)
-    url: ""            # Enter the URL to the material
-  # Add more materials as necessary...
+# This file is structured to hold this year's keynote information.
+# Populate the fields with up-to-date data.
+
+# speaker:
+#   name: ""             # Enter the speaker's full name
+#   # courtesy_title: "" # Uncomment and modify if applicable
+#   affiliation: ""      # Enter the speaker's affiliation and institution details
+#   country: ""          # Enter the speaker's country
+#   photo: ""            # Enter the relative path to the speaker's photo
+#   bio: >               # Enter a brief biography of the speaker
+#     # Your bio here...
+# title: ""              # Enter the keynote title for this year
+# abstract: >           # Enter the abstract for the presentation
+#   # Your abstract here...
+# materials:
+#   - title: ""          # Enter the title of the material (e.g., Slides, Video, Code)
+#     url: ""            # Enter the URL to the material
+#   # Add more materials as necessary...
