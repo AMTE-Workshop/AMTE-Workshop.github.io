@@ -1,0 +1,16 @@
+# This file is structured to hold this year's invited talk information.
+# Populate the fields with up-to-date data.
+
+speaker:
+  name:          # Speaker's full name, e.g., "Jane Doe"
+  affiliation:   # Speaker's affiliation or organization, e.g., "Tech Corp"
+  country:       # Country of the speaker, e.g., "USA" or ISO code "US"
+  photo:         # Relative path to the speaker's photo, e.g., "/assets/jane_doe.png"
+  bio: |-
+    # Brief biography for the speaker.
+    # Provide an overview of the speaker's background, expertise, and career highlights.
+
+title:           # Title of the invited talk, e.g., "Innovating the Future of Tech"
+abstract: |-
+  # Description of the talk.
+  # Summarize the topic, key points, and objectives of the presentation.

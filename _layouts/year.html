@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% assign year_config = site.data.years[page.year].config %}
+
+<div class="year-header">
+  <h1>{{ year_config.title }}</h1>
+  <p>{{ year_config.conf_city }} • {{ year_config.workshop_date }}</p>
+</div>
+
+<div class="year-content">
+  {{ content }}
+</div>
