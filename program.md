@@ -2,29 +2,36 @@
 layout: default
 ---
 
-# Program schedule
+# Program Schedule
 
-Date: Monday, August 26th
+<!-- Replace with the actual date of the event -->
+Date: [Insert Date Here]
 
+<!-- Replace with the name of the session chair -->
 Chair: Patrick Diehl
 
-* 09:00 - 9:01, Welcome remarks
-* 09:01 - 9:40, [Keynote talk](https://amte2024.github.io/keynote): Tools of the Trade Embracing Our Inner Craftsman (Joel Falcou)
-* 09:40 - 10:00, Lessons Learned and Scalability Achieved when Porting Uintah to DOE Exascale Systems, John Holmen
+<!-- Add session details below. Format: Time range, Session title or description -->
+* [Insert Time] - [Insert Time], [Session Title or Description]
+* [Insert Time] - [Insert Time], [Session Title or Description]
+* [Insert Time] - [Insert Time], [Session Title or Description]
 
-* 10:00 - 10:30, Coffee Break
+<!-- Add breaks as needed -->
+* [Insert Time] - [Insert Time], [Break Type (e.g., Coffee Break)]
 
-Chair: John Holmen
+<!-- Add a new chair if the session changes -->
+Chair: [Insert Chair Name Here]
 
-* 10:30 - 11:10, [Invited talk](https://amte2024.github.io/invited-talk): Expressing and Optimizing Task Graphs in Heterogeneous Programming through SYCL, Mehdi Goli
-* 11:10 - 11:30, GVEL: Fast Graph Loading in Edgelist and Compressed Sparse Row (CSR) formats, Subhajit Shau
-* 11:30 - 11:50, Investigating the Performance Difference of Task Communication via Futures or Side Effects, Lukas Reitz
-* 11:50 - 12:10, Evaluating AI-generated code for C++, Fortran, Go, Java, Julia, Matlab, Python, R, and Rust, Patrick Diehl
-* 12:10 - 12:30, Discussion
+* [Insert Time] - [Insert Time], [Session Title or Description]
+* [Insert Time] - [Insert Time], [Session Title or Description]
+* [Insert Time] - [Insert Time], [Session Title or Description]
+* [Insert Time] - [Insert Time], [Session Title or Description]
+* [Insert Time] - [Insert Time], [Discussion or Other Activity]
 
-* 12:30 - 11:30, Lunch Break
+* [Insert Time] - [Insert Time], [Break Type (e.g., Lunch Break)]
 
-All times are in Central European Summer Time ([UTC+1](https://www.timeanddate.com/worldclock/spain/madrid)).
+<!-- Specify the time zone for clarity -->
+All times are in Central European Time ([UTC+1](https://www.timeanddate.com/worldclock/germany/dresden)).
 
-#The complete EuroPar program is available at [https://2024.euro-par.org/program/](https://2024.euro-par.org/program/). 
+<!-- Add a link to the complete program if available -->
+#The complete EuroPar program is available at [https://2025.euro-par.org/program/](https://2025.euro-par.org/program/).
 
