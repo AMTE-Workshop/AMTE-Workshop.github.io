@@ -25,7 +25,7 @@ For questions or comments regarding the call for papers, please contact **REDACT
 
 <script type="text/javascript">
 var d = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@_-+.";
-var s = "FU4SEFKOYg9osdgvuCAuLFX"
+var s = "FU4SM9Xcg69jiqoiztL"
 var r = ""
 for (var i = 0; i < s.length; i++) r += d.charAt((((d.indexOf(s.charAt(i)) - (3 * i + 31)) + 3 * d.length) % d.length));
 document.getElementById("cntc").textContent = r;
