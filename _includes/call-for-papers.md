@@ -13,6 +13,8 @@
 * {{ date.description }}: {{ date.date }}
 {%- endfor -%}
 
+<br/>
+
 ## Submissions
 
 {{ year_data.cfp.submissions }}
