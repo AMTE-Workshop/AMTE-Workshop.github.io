@@ -1,13 +1,12 @@
 ---
 layout: default
-year: "2025"
 ---
 <!-- Debug information -->
-<!-- <p>Current page year: {{ page.year }}</p>
+<!-- <p>Current page year: {{ site.current_year }}</p>
 <p>Available years: {{ site.data.years | map: "year" | join: ", " }}</p> -->
 <!-- <p>Data structure: {{ site.data.years | jsonify }}</p> -->
 <!-- <p>Data structure: {{ site.data.years["2025"] | jsonify }}</p> -->
-<!-- <p>Data structure: {{ site.data.years[page.year] | jsonify }}</p> -->
+<!-- <p>Data structure: {{ site.data.years[site.current_year] | jsonify }}</p> -->
 
 <!-- <script>
   window.location.href = "/years/{{ site.current_year }}";

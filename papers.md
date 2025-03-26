@@ -1,11 +1,10 @@
 ---
 layout: default
-year: "2025"
 ---
-{% if site.data.years[page.year].papers %}
+{% if site.data.years[site.current_year].papers %}
 # Accepted papers
 
-{% for paper in site.data.years[page.year].papers -%}
+{% for paper in site.data.years[site.current_year].papers -%}
 ## {{ paper.title }}
 
 {% comment %}

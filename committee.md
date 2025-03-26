@@ -1,11 +1,10 @@
 ---
 layout: default
-year: "2025"
 ---
 # Organizing Committee
 
-{% if site.data.years[page.year].committee.organizing %}
-{% for member in site.data.years[page.year].committee.organizing -%}
+{% if site.data.years[site.current_year].committee.organizing %}
+{% for member in site.data.years[site.current_year].committee.organizing -%}
 * {{ member.name }}, {{ member.affiliation }}, {{ member.country }}
 {% endfor %}
 {% else %}
@@ -15,8 +14,8 @@ Organizing committee members have not been announced yet.
 # Program Committee 
 
 
-{% if site.data.years[page.year].committee.program %}
-{% for member in site.data.years[page.year].committee.program -%}
+{% if site.data.years[site.current_year].committee.program %}
+{% for member in site.data.years[site.current_year].committee.program -%}
 * {{ member.name }}, {{ member.affiliation }}, {{ member.country }}
 {% endfor %}
 {% else %}

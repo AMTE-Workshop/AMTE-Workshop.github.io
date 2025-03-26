@@ -1,8 +1,7 @@
 ---
 layout: default
-year: "2025"
 ---
-{% assign talk = site.data.years[page.year].invited_talk %}
+{% assign talk = site.data.years[site.current_year].invited_talk %}
 {% assign speaker = talk.speaker %}
 
 {% if talk %}
