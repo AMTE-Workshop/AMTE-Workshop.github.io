@@ -37,17 +37,11 @@ program:
   - name: Vassilios Dimakopoulos
     affiliation: University of Ioannina
     country: Greece
-  - name: Metin H. Aktulga
-    affiliation: Michigan State University
-    country: USA
   - name: Brad Richardson
     affiliation: Sourcery Institute
     country: USA
   - name: Huda Ibeid
     affiliation: Intel
-    country: USA
-  - name: J. "Ram" Ramanujam
-    affiliation: Louisiana State University
     country: USA
   - name: Thomas Fahringer
     affiliation: University of Innsbruck
@@ -82,15 +76,9 @@ program:
   - name: Jan Ciesko
     affiliation: Sandia National Laboratories
     country: USA
-  - name: Tianyi Zhang
-    affiliation: Amazon Web Service
-    country: USA
   - name: Markus Rampp
     affiliation: Max Planck Computing & Data Facility
     country: Germany
-  - name: Patrica Grubel
-    affiliation: Los Alamos National Laboratory
-    country: USA
   - name: Joseph Schuchart
     affiliation: University of Tennessee, Knoxville
     country: USA
