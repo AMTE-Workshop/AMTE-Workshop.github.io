@@ -1,0 +1,16 @@
+# This file is structured to contain data for this year's papers.
+#
+# To add a paper, use the following template for each entry:
+#
+# - title: "Paper Title"         # Enter the paper title.
+#   id: 1                        # Assign a unique identifier (number).
+#   slides: "URL to slides"      # Provide the URL for the presentation slides.
+#   authors:                   # List the authors.
+#     - "Author One"
+#     - "Author Two"
+#   abstract: "Paper abstract"    # Write a brief summary of the paper.
+#
+# Repeat the above structure for each paper.
+#
+# Currently, no papers are populated for this year.
+[]
