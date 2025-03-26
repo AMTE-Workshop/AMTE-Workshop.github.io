@@ -49,6 +49,9 @@
         </ul>
         <ul>
           <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}program">Program</a></strong></li>
+          {%- if year_data.panel -%}
+          <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}panel">Panel</a></strong></li>
+          {%- endif -%}
           {%- if year_data.keynote -%}
           <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}keynote">Keynote</a></strong></li>
           {%- endif -%}

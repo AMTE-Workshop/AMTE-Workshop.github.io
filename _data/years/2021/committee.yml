@@ -1,0 +1,92 @@
+organizing:
+  - name: Irina Demeshko
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Patrick Diehl
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Zahra Khatami
+    affiliation: NVIDIA
+    country: USA
+  - name: Steven R. Brandt
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Parsa Amini
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+program:
+  - name: Metin H. Aktulga
+    affiliation: Michigan State University
+    country: USA
+  - name: Bryce Adelstein Lelbach
+    affiliation: NVIDIA
+    country: USA
+  - name: John Biddiscombe
+    affiliation: Swiss National Supercomputing Centre
+    country: Switzerland
+  - name: Gregor Daiss
+    affiliation: University of Stuttgart
+    country: Germany
+  - name: Vassilios Dimakopoulos
+    affiliation: University of Ioannina
+    country: Greece
+  - name: Patricia Grubel
+    affiliation: Los Alamos National Laboratory
+    country: USA 
+  - name: Jeff Hammond
+    affiliation: NVIDIA
+    country: USA
+  - name: Adrian Lemoine
+    affiliation: AMD
+    country: USA
+  - name: Roman Lakymchuk
+    affiliation: Fraunhofer ITWM
+    country: Germany
+  - name: Thomas Heller
+    affiliation: Exasol
+    country: Germany
+  - name: Kevin Huck
+    affiliation: University of Oregon
+    country: USA
+  - name: Daisy Hollman
+    affiliation: Sandia National Laboratories
+    country: USA
+  - name: Laxmikant (Sanjay) V. Kale
+    affiliation: University of Illinois at Urbana-Champaign
+    country: USA
+  - name: Hartmut Kaiser
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Erwin Laure
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany
+  - name: Andrew Lumsdaine
+    affiliation: Northwest Institute for Advanced Computing
+    country: USA
+  - name: Pat McCormick
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Dirk Pleiter
+    affiliation: Jülich Supercomputing Centre
+    country: Germany
+  - name: Brad Richardson
+    affiliation: Sourcery Institute
+    country: USA
+  - name: Galen Shipman
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Shahrzad Shirzad
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Mikael Simberg
+    affiliation: Swiss National Supercomputing Centre
+    country: Switzerland
+  - name: Sean Treichler
+    affiliation: NVIDIA
+    country: USA
+  - name: Didem Unat
+    affiliation: Koç University
+    country: Turkey
+  - name: Nanmiao Wu
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA

@@ -1,0 +1,34 @@
+moderator:
+  name: Irina Demeshko
+  affiliation: Los Alamos National Laboratory
+  country: USA
+panelists:
+  - name: Hartmut Kaiser
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Laxmikant (Sanjay) Kale
+    affiliation: Department of Computer Science, University of Illinois at Urbana-Champaign
+    country: USA
+  - name: Martin Berzins
+    affiliation: Scientific Computing and Imaging Institute, University of Utah
+    country: USA
+  - name: Mike Bauer
+    affiliation: NVIDIA
+    country: USA
+  - name: Thomas Fahringer
+    affiliation: University of Innsbruck
+    country: Austria
+questions:
+  - q: Why should one choose to use AMT models?
+  - q: What kinds of applications will benefit from using AMT models and programming systems?
+  - q: For what kinds of applications is AMT-style programming better suited to creating maintainable code than message passing-style code?
+  - q: Are AMT programs more difficult to debug because it is (1) easier to create race conditions and (2) more difficult to get anything like a stack trace? What is being done to make debugging of large-scale AMT applications easier?
+  - q: What sort of language support is needed for AMT programming?
+    followups:
+      - What advantage do newer languages like Go, Julia, etc., have for AMT programming, and can/should they displace C++ for scientific applications?
+      - Many languages have added "await" or some variant as new keywords for processing asynchronous code. How important is this feature for the success of the AMT paradigm?
+  - q: How does one choose which AMT programming model among others?
+outline:
+  - Introduction of the panelists
+  - Discussion about panel's chosen questions
+  - Q&A with the audience
