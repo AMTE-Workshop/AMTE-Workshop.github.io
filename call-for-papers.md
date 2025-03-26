@@ -3,26 +3,21 @@ layout: default
 permalink: /call-for-papers/
 year: "2025"
 ---
-{% if page.year %}
-  {% assign year_string = page.year | append: '' %}
-{% else %}
-  {% assign year_string = "2025" %}
-{% endif %}
 
-# Call for Papers ({{ year_string }})
+# Call for Papers ({{ page.year }})
 
-{% if site.data.cfp %}
-{{ site.data.cfp.description }}
+{% if site.data.years[page.year].cfp %}
+{{ site.data.years[page.year].cfp.description }}
 
 ## Important Dates
 
-{% for date in site.data.cfp.important_dates %}
+{% for date in site.data.years[page.year].cfp.important_dates %}
 * {{ date.date }}: {{ date.description }}
 {% endfor %}
 
 ## Submissions
 
-{{ site.data.cfp.submissions }}
+{{ site.data.years[page.year].cfp.submissions }}
 
 ## Contact
 
@@ -37,5 +32,5 @@ document.getElementById("cntc").textContent = r;
 </script>
 
 {% else %}
-Call for papers information for {{ year_string }} is not yet available.
+Call for papers information for {{ page.year }} is not yet available.
 {% endif %}

@@ -1,12 +1,12 @@
 ---
 layout: default
+year: "2025"
 ---
-
 # Panel
 
 ## Moderator
 
-{% assign mod = site.data.panel.moderator %}
+{% assign mod = site.data.years[page.year].panel.moderator %}
 {% if mod %}
 * {{ mod.name }}, {{ mod.affiliation }}, {{ mod.country }}
 {% else %}
@@ -15,8 +15,8 @@ The moderator has not been announced yet.
 
 ## Panelists
 
-{% if site.data.panel.panelists %}
-{% for panelist in site.data.panel.panelists -%}
+{% if site.data.years[page.year].panel.panelists %}
+{% for panelist in site.data.years[page.year].panel.panelists -%}
 * {{ panelist.name }}, {{ panelist.affiliation }}, {{ panelist.country }}
 {% endfor %}
 {% else %}
@@ -25,8 +25,8 @@ Panelists have not been announced yet.
 
 ## Panel's chosen questions
 
-{% if site.data.panel.questions %}
-{% for question in site.data.panel.questions %}
+{% if site.data.years[page.year].panel.questions %}
+{% for question in site.data.years[page.year].panel.questions %}
 * {{ question.q }}
     {%- if question.followups -%}
     {% for followup in question.followups %}
@@ -40,8 +40,8 @@ No questions have been chosen yet.
 
 ## Outline
 
-{% if site.data.panel.outline %}
-{% for item in site.data.panel.outline %}
+{% if site.data.years[page.year].panel.outline %}
+{% for item in site.data.years[page.year].panel.outline %}
 * {{ item }}
 {%- endfor -%}
 {% else %}

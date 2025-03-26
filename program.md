@@ -1,7 +1,7 @@
 ---
 layout: default
+year: "2025"
 ---
-
 # Program Schedule
 
 <!-- Replace with the actual date of the event -->

@@ -1,8 +1,7 @@
 ---
 layout: default
-year: '2025'
+year: "2025"
 ---
-
 <!-- Debug information -->
 <!-- <p>Current page year: {{ page.year }}</p>
 <p>Available years: {{ site.data.years | map: "year" | join: ", " }}</p> -->
