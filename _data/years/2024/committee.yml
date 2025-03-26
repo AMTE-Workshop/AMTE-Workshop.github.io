@@ -1,0 +1,98 @@
+organizing:
+  - name: Patrick Diehl
+    affiliation: Applied Computer Science at Los Alamos National Laboratory
+    country: USA
+  - name: Zahra Khatami
+    affiliation: NVIDIA
+    country: USA
+  - name: Steven R. Brandt
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Parsa Amini
+    affiliation: Halpern-Wight Inc.
+    country: USA
+program:
+  - name: Thomas Heller
+    affiliation: Exasol
+    country: Germany
+  - name: Hartmut Kaiser
+    affiliation: Louisiana State University
+    country: USA
+  - name: Dirk Pleiter
+    affiliation: KTH Royal Institute of Technology in Stockholm
+    country: Sweden
+  - name: Roman Iakymchuk
+    affiliation: Umea University
+    country: Sweden
+  - name: Erwin Laure
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany
+  - name: Patricia Grubel
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Vassilios Dimakopoulos
+    affiliation: University of Ioannina
+    country: Greece
+  - name: Metin H. Aktulga
+    affiliation: Michigan State University
+    country: USA
+  - name: Brad Richardson
+    affiliation: Sourcery Institute
+    country: USA
+  - name: Huda Ibeid
+    affiliation: Intel
+    country: USA
+  - name: J. "Ram" Ramanujam
+    affiliation: Louisiana State University
+    country: USA
+  - name: Thomas Fahringer
+    affiliation: University of Innsbruck
+    country: Austria
+  - name: Pedro Valero Lara
+    affiliation: Oak Ridge National Laboratory
+    country: USA
+  - name: Michael Wong
+    affiliation: Codeplay Software
+    country: USA
+  - name: Dirk Pflüger
+    affiliation: University of Stuttgart
+    country: Germany
+  - name: Peter Thoman
+    affiliation: University of Innsbruck
+    country: Austria
+  - name: Bryce Adelstein Lelbach
+    affiliation: Nvidia
+    country: USA
+  - name: Weile Wei
+    affiliation: Google
+    country: USA
+  - name: Brad Chamberlain
+    affiliation: HPE
+    country: USA
+  - name: Sumathi Lakshmiranganatha
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Nikunj Gupta
+    affiliation: Amazon
+    country: USA
+  - name: Jan Ciesko
+    affiliation: Sandia National Laboratories
+    country: USA
+  - name: Tianyi Zhang
+    affiliation: Amazon Web Service
+    country: USA
+  - name: Markus Rampp
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany
+  - name: Patrica Grubel
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Joseph Schuchart
+    affiliation: University of Tennessee, Knoxville
+    country: USA
+  - name: Ben Bergen
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Markus Rampp
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany

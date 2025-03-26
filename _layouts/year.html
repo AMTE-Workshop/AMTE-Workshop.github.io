@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-{% assign year_config = site.data.years[page.year].config %}
+
+{% assign year = page.year | default: site.current_year %}
+{% assign year_config = site.data.years[year].config %}
+{% assign year_data = site.data.years[year] %}
 
 <div class="year-header">
   <h1>{{ year_config.title }}</h1>
