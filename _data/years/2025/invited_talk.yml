@@ -1,10 +1,7 @@
-# This file is structured to hold this year's invited talk information.
-# Populate the fields with up-to-date data.
-
-# speaker:
-#   name:          # Speaker's full name, e.g., "Jane Doe"
-#   affiliation:   # Speaker's affiliation or organization, e.g., "Tech Corp"
-#   country:       # Country of the speaker, e.g., "USA" or ISO code "US"
+speaker:
+  name: "Samuel Thibault"
+  affiliation: "University of Bordeaux, Laboratoire Bordelais de Recherche en Informatique (LaBRI)"
+  country: "France"
 #   photo:         # Relative path to the speaker's photo, e.g., "/assets/jane_doe.png"
 #   bio: |-
 #     # Brief biography for the speaker.

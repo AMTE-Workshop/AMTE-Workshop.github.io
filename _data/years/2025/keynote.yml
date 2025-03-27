@@ -1,11 +1,8 @@
-# This file is structured to hold this year's keynote information.
-# Populate the fields with up-to-date data.
-
-# speaker:
-#   name: ""             # Enter the speaker's full name
-#   # courtesy_title: "" # Uncomment and modify if applicable
-#   affiliation: ""      # Enter the speaker's affiliation and institution details
-#   country: ""          # Enter the speaker's country
+speaker:
+  name: "Peter Thoman"
+  courtesy_title: "Dr."
+  affiliation: "Assistant Professor, University of Innsbruck"
+  country: "Austria"
 #   photo: ""            # Enter the relative path to the speaker's photo
 #   bio: >               # Enter a brief biography of the speaker
 #     # Your bio here...
