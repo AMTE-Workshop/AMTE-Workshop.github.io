@@ -3,7 +3,7 @@
   <ul>
     {% assign year_indices = site.years | where_exp: "item", "item.path contains 'index.md'" %}
     {% for year_index in year_indices reversed %}
-      <li {% if year_index.year == page.year %}class="active"{% endif %}>
+      <li {% if year_index.year == site.current_year %}class="active"{% endif %}>
         <a href="{{ year_index.url }}">{{ site.data.years[year_index.year].config.acronym }}</a>
       </li>
     {% endfor %}

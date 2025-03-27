@@ -24,11 +24,7 @@
 For questions or comments regarding the call for papers, please contact **REDACTED**{: #cntc title="workshop contact address"}.
 
 <script type="text/javascript">
-var d = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@_-+.";
-var s = "FU4SM9Xcg69jiqoiztL"
-var r = ""
-for (var i = 0; i < s.length; i++) r += d.charAt((((d.indexOf(s.charAt(i)) - (3 * i + 31)) + 3 * d.length) % d.length));
-document.getElementById("cntc").textContent = r;
+document.getElementById("cntc").textContent=function(t){for(var n=t.length,o=Math.floor((n+1)/2),r=n-o,c=[],e=[],h=0,a=0;a<o;a++)a<r&&c.push(t.charAt(h++)),e.push(t.charAt(h++));var u=e.concat(c),d=[];for(a=0;a<u.length;a++){var f=(u[a].charCodeAt(0)-33-(73*a+191))%94;f<0&&(f+=94),d.push(String.fromCharCode(f+33))}return d.join("")}("NdE[,Mz)`Mnh;D{@u,c")
 </script>
 
 {% else %}

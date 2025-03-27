@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Obfuscator Live Demo & Dynamic Snippet</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; background: #f8f8f8; }
+    input, textarea { width: 100%; font-size: 1rem; padding: 0.5em; margin-bottom: 1em; }
+    code, .output { display: block; font-family: monospace; background: #eee; padding: 0.5em; margin: 0.5em 0; white-space: pre-wrap; }
+    .label { font-weight: bold; margin-top: 1em; }
+    button { padding: 0.5em 1em; font-size: 1rem; }
+  </style>
+</head>
+<body>
+
+  <h1>Email Obfuscation Demo</h1>
+  <p>Type an email below. The obfuscated and recovered versions update live.</p>
+  
+  <label class="label" for="email">Email input:</label>
+  <input id="email" type="text" placeholder="e.g., someone@example.com" autocomplete="off" />
+
+  <label class="label">Obfuscated:</label>
+  <code id="obf" class="output"></code>
+
+  <label class="label">Recovered:</label>
+  <code id="rec" class="output"></code>
+
+  <hr />
+
+  <h2>Instructions Code (Copy-Paste)</h2>
+  <p>
+    This snippet includes your current obfuscated email and the code that writes into <code>#cntc</code>.
+    (Use Ctrl‑C / Ctrl‑V to copy.)
+  </p>
+  <textarea id="codeSnippet" rows="20" readonly></textarea>
+  <button id="copyBtn">Copy Code to Clipboard</button>
+
+  <!-- Live demo JavaScript -->
+  <script type="text/javascript">
+  (function() {
+    // Obfuscation function: shift each char into printable ASCII (33–126) then weave halves.
+    function obfuscate(email) {
+      var shifted = [];
+      for (var i = 0; i < email.length; i++) {
+        var base = email.charCodeAt(i) - 33;
+        var val = (base + (73 * i + 191)) % 94;
+        shifted.push(String.fromCharCode(val + 33));
+      }
+      var n = shifted.length;
+      var half = Math.floor((n + 1) / 2);
+      var firstHalf = shifted.slice(0, half);
+      var secondHalf = shifted.slice(half);
+      var result = [];
+      for (var i = 0; i < half; i++) {
+        if (i < secondHalf.length) result.push(secondHalf[i]);
+        result.push(firstHalf[i]);
+      }
+      return result.join('');
+    }
+
+    // Deobfuscation function: reverse the weaving then unshift.
+    function deobfuscate(obf) {
+      var n = obf.length;
+      var half = Math.floor((n + 1) / 2);
+      var secondLen = n - half;
+      var sHalf = [], fHalf = [];
+      var idx = 0;
+      for (var i = 0; i < half; i++) {
+        if (i < secondLen) sHalf.push(obf.charAt(idx++));
+        fHalf.push(obf.charAt(idx++));
+      }
+      var shifted = fHalf.concat(sHalf);
+      var result = [];
+      for (var i = 0; i < shifted.length; i++) {
+        var base = shifted[i].charCodeAt(0) - 33;
+        var val = (base - (73 * i + 191)) % 94;
+        if (val < 0) val += 94;
+        result.push(String.fromCharCode(val + 33));
+      }
+      return result.join('');
+    }
+
+    // DOM elements for live test and dynamic snippet.
+    var emailInput = document.getElementById("email");
+    var obfOut = document.getElementById("obf");
+    var recOut = document.getElementById("rec");
+    var codeSnippet = document.getElementById("codeSnippet");
+    var copyBtn = document.getElementById("copyBtn");
+
+    // Update live outputs and the dynamic instructions snippet.
+    function updateOutputs() {
+      var email = emailInput.value;
+      if (!email) {
+        obfOut.textContent = '';
+        recOut.textContent = '';
+        codeSnippet.value = '';
+        return;
+      }
+      var obfStr = obfuscate(email);
+      var recStr = deobfuscate(obfStr);
+      obfOut.textContent = obfStr;
+      recOut.textContent = recStr;
+
+      // Build the dynamic snippet that you can copy.
+      // Use JSON.stringify to safely embed the obfuscated string.
+      var snippet = `
+(function(){
+  function obfuscate(email) {
+    var shifted = [];
+    for (var i = 0; i < email.length; i++) {
+      var base = email.charCodeAt(i) - 33;
+      var val = (base + (73 * i + 191)) % 94;
+      shifted.push(String.fromCharCode(val + 33));
+    }
+    var n = shifted.length;
+    var half = Math.floor((n + 1) / 2);
+    var firstHalf = shifted.slice(0, half);
+    var secondHalf = shifted.slice(half);
+    var result = [];
+    for (var i = 0; i < half; i++) {
+      if (i < secondHalf.length) result.push(secondHalf[i]);
+      result.push(firstHalf[i]);
+    }
+    return result.join('');
+  }
+  function deobfuscate(obf) {
+    var n = obf.length;
+    var half = Math.floor((n + 1) / 2);
+    var secondLen = n - half;
+    var sHalf = [], fHalf = [];
+    var idx = 0;
+    for (var i = 0; i < half; i++) {
+      if (i < secondLen) sHalf.push(obf.charAt(idx++));
+      fHalf.push(obf.charAt(idx++));
+    }
+    var shifted = fHalf.concat(sHalf);
+    var result = [];
+    for (var i = 0; i < shifted.length; i++) {
+      var base = shifted[i].charCodeAt(0) - 33;
+      var val = (base - (73 * i + 191)) % 94;
+      if (val < 0) val += 94;
+      result.push(String.fromCharCode(val + 33));
+    }
+    return result.join('');
+  }
+  var obfStr = ${JSON.stringify(obfStr)};
+  document.getElementById("cntc").textContent = deobfuscate(obfStr);
+})();`;
+      codeSnippet.value = snippet;
+    }
+
+    emailInput.addEventListener("input", updateOutputs);
+
+    // Copy-to-Clipboard for the instructions snippet.
+    copyBtn.addEventListener("click", function() {
+      codeSnippet.select();
+      try {
+        document.execCommand("copy");
+        copyBtn.textContent = "Copied!";
+        setTimeout(function(){ copyBtn.textContent = "Copy Code to Clipboard"; }, 2000);
+      } catch (err) {
+        copyBtn.textContent = "Copy Failed";
+      }
+    });
+  })();
+  </script>
+
+  <!-- This element is the target for the dynamic snippet when pasted elsewhere -->
+  <div id="cntc" style="display:none;"></div>
+  
+</body>
+</html>
