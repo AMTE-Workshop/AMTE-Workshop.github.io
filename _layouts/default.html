@@ -46,7 +46,7 @@
           {%- if year_data.papers -%}
           <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}papers">Accepted papers</a></strong></li>
           {%- endif -%}
-          {% assign journal_page = site.pages | where_exp: "file", "file.path contains year and file.path contains 'journal-issue.md'" %}
+          {% assign journal_page = site.pages | where_exp: "file", "file.path contains year" | where_exp: "file", "file.path contains 'journal-issue.md'" %}
           {%- if journal_page.size > 0 -%}
           <li><strong><a href="{{ "/" | absolute_url }}{{ year | append: "/" }}journal-issue">Special Issue</a></strong></li>
           {%- endif -%}
