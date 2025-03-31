@@ -19,28 +19,13 @@ The workshop will focus on the following areas:
 * Challenges to task-based runtimes in scaling to large clusters
 * Hardware challenges and solutions in using task-based environments
 
+{% assign start_year = 2021 %}
+{% assign end_year = year | minus: 1 %}
+{% if end_year >= start_year %}
 ## Previous events
 
-* [AMTE 2024](https://amte-workshop.github.io/2024) @ [Euro-Par 2024](https://2024.euro-par.org/)
-* [AMTE 2023](https://amte-workshop.github.io/2023) @ [Euro-Par 2023](https://2023.euro-par.org/)
-* [AMTE 2022](https://amte-workshop.github.io/2022) @ [Euro-Par 2022](https://2022.euro-par.org/)
-* [AMTE 2021](https://amte-workshop.github.io/2021) @ [Euro-Par 2021](https://2021.euro-par.org/)
 
-{% if page.year == 2025 %}
-* [AMTE 2024](https://amte-workshop.github.io/2024) @ [Euro-Par 2024](https://2024.euro-par.org/)
-* [AMTE 2023](https://amte-workshop.github.io/2023) @ [Euro-Par 2023](https://2023.euro-par.org/)
-* [AMTE 2022](https://amte-workshop.github.io/2022) @ [Euro-Par 2022](https://2022.euro-par.org/)
-* [AMTE 2021](https://amte-workshop.github.io/2021) @ [Euro-Par 2021](https://2021.euro-par.org/)
-{% endif %}
-{% if page.year == 2024 %}
-* [AMTE 2023](https://amte-workshop.github.io/2023) @ [Euro-Par 2023](https://2023.euro-par.org/)
-* [AMTE 2022](https://amte-workshop.github.io/2022) @ [Euro-Par 2022](https://2022.euro-par.org/)
-* [AMTE 2021](https://amte-workshop.github.io/2021) @ [Euro-Par 2021](https://2021.euro-par.org/)
-{% endif %}
-{% if page.year == 2023 %}
-* [AMTE 2022](https://amte-workshop.github.io/2022) @ [Euro-Par 2022](https://2022.euro-par.org/)
-* [AMTE 2021](https://amte-workshop.github.io/2021) @ [Euro-Par 2021](https://2021.euro-par.org/)
-{% endif %}
-{% if page.year == 2022 %}
-* [AMTE 2021](https://amte-workshop.github.io/2021) @ [Euro-Par 2021](https://2021.euro-par.org/)
+{% for yr in (start_year..end_year) reversed %}
+* [AMTE {{ yr }}](https://amte-workshop.github.io/{{ yr }}) @ [Euro-Par {{ yr }}](https://{{ yr }}.euro-par.org/)
+{%- endfor -%}
 {% endif %}
