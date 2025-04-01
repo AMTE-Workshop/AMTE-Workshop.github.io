@@ -6,22 +6,21 @@ layout: default
 
 # Topical Issue: Applications and Frameworks using the Asynchronous Many Task Paradigm
 
-We are pleased to announce the topical issue “Applications and Frameworks using the Asynchronous Many Task Paradigm” to be published in ???[SN Computer Science](https://www.springer.com/journal/42979). All accepted workshop papers, are invited to submit a extended paper with around 40% new conntent to the topical issue. ???
+We are pleased to announce the topical issue “Recent advances in Asynchronous Many Task Runtime Systems
+” to be published in [SN Computer Science](https://www.springer.com/journal/42979). All accepted workshop papers, are invited to submit a extended paper with around 40% new conntent to the topical issue.
 
 ## Details
 
-Lead editor: Patrick Diehl, Louisiana State University
+Lead editor: Patrick Diehl, Los Alamos National Laboratory
 
 Editoral board
 
-* Peter Thoman, University of Innsbruck
-* Hartmut Kaiser, Louisiana State University 
-* Steven R. Brandt, Louisiana State University 
-* J. "Ram” Ramanujam, Louisiana State University
+* Qinglei Cao, Saint Louis University
+* Jonas Posner, University of Kassel 
 
 ## Submission Guidelines
 
-Submission deadline: SOME DATE
+Submission deadline: December 1, 2025 
 
 Please refer to the [Submission Guidelines](https://www.springer.com/journal/42979/submission-guidelines?IFA.) for detailed information on submitting your work to the SN Computer Science Conference.
 
