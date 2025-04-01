@@ -73,9 +73,9 @@ program:
   - name: Nikunj Gupta
     affiliation: Amazon
     country: USA
-  - name: Jan Ciesko
-    affiliation: Sandia National Laboratories
-    country: USA
+  - name: Jonas Posner
+    affiliation: University of Kassel
+    country: Germany
   - name: Markus Rampp
     affiliation: Max Planck Computing & Data Facility
     country: Germany
