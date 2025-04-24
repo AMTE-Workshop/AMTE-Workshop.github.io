@@ -4,8 +4,21 @@ speaker:
   affiliation: "Assistant Professor, University of Innsbruck"
   country: "Austria"
 #   photo: ""            # Enter the relative path to the speaker's photo
-#   bio: >               # Enter a brief biography of the speaker
-#     # Your bio here...
+    bio: >               # Enter a brief biography of the speaker
+"Peter Thoman is an assistant professor with the Distributed and Parallel Systems
+working group at the University of Innsbruck, as well as the CTO and co-founder
+of PH3 GmbH. He is one of the original developers and designers of the Celerity
+runtime system for accelerator clusters and the Insieme C++ research compiler,
+and was involved in multiple international research projects in this capacity.
+In particular, he led core technical work packages in the the Ligate FET HPC
+project, the Horizon 2020 AllScale project, and the D-A-CH Celerity project.
+
+Peter’s research interests include API and runtime system design for
+parallelism, accelerator computing, fine-grained task parallelism, and
+compiler-supported optimizations. He is a representative for the University of
+Innsbruck in Khronos, and a SYCL working group member. Currently, he is leading
+a project investigating automatic and transparent full-stack data compression
+in GPU cluster computing."
 # title: ""              # Enter the keynote title for this year
 # abstract: >           # Enter the abstract for the presentation
 #   # Your abstract here...
