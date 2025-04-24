@@ -18,7 +18,7 @@
 
 {{ speaker.bio }}
 
-{% if talk.title and talk.abstract %}
+{% if talk.title  %}
 ### {{ talk.title }}
 
 {{ talk.abstract }}
