@@ -52,7 +52,7 @@
           {%- endif -%}
         </ul>
         <ul>
-          {%- if year > 2024 -%} 
+          {%- if year_data.program -%} 
           <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}program">Program</a></strong></li>
           {%- endif -%}
           {%- if year_data.panel  -%}
