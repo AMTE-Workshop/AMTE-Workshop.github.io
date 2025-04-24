@@ -4,14 +4,14 @@ speaker:
   country: "France"
 #   photo:         # Relative path to the speaker's photo, e.g., "/assets/jane_doe.png"
   bio: |-
-    "Samuel Thibault is Professor at the University of Bordeaux, and part of
+    Samuel Thibault is Professor at the University of Bordeaux, and part of
     the Inria STORM team. His research revolves around task and data transfer
     scheduling in parallel and distributed runtime systems. He is currently focused
     on the design of the StarPU runtime, and more particularly its scheduling
-    heuristics for heterogeneous architectures and for distributed systems."
+    heuristics for heterogeneous architectures and for distributed systems.
   title: Recursive tasks for fun and profit 
   abstract: |-
-    "Recursive tasks have been proposed in various task-based runtime systems. While
+    Recursive tasks have been proposed in various task-based runtime systems. While
     the details vary, a lot of commonalities arise, and similar performance benefits
     are observed by different research teams. On the application side, expressing
     computation recursively is also a pattern that arises commonly for expressing
@@ -22,5 +22,5 @@ speaker:
     execution in various ways, by using different granularities to drive the
     available parallelism and balance tasks granularities between heterogeneous
     resources, as well as parallelizing the tasks submissions and decoupling
-    tasks from communication."
+    tasks from communication.
 
