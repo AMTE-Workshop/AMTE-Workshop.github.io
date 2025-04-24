@@ -3,13 +3,24 @@ speaker:
   affiliation: "University of Bordeaux, Laboratoire Bordelais de Recherche en Informatique (LaBRI)"
   country: "France"
 #   photo:         # Relative path to the speaker's photo, e.g., "/assets/jane_doe.png"
-   bio: |-
-      Samuel Thibault is Professor at the University of Bordeaux, and part of
-      the Inria STORM team. His research revolves around task and data transfer
-      scheduling in parallel and distributed runtime systems. He is currently focused
-      on the design of the StarPU runtime, and more particularly its scheduling
-      heuristics for heterogeneous architectures and for distributed systems.
-# title:           # Title of the invited talk, e.g., "Innovating the Future of Tech"
-# abstract: |-
-#   # Description of the talk.
-#   # Summarize the topic, key points, and objectives of the presentation.
+  bio: |-
+    "Samuel Thibault is Professor at the University of Bordeaux, and part of
+    the Inria STORM team. His research revolves around task and data transfer
+    scheduling in parallel and distributed runtime systems. He is currently focused
+    on the design of the StarPU runtime, and more particularly its scheduling
+    heuristics for heterogeneous architectures and for distributed systems."
+  title: Recursive tasks for fun and profit 
+  abstract: |-
+    "Recursive tasks have been proposed in various task-based runtime systems. While
+    the details vary, a lot of commonalities arise, and similar performance benefits
+    are observed by different research teams. On the application side, expressing
+    computation recursively is also a pattern that arises commonly for expressing
+    e.g algorithms on compressed data such as H-matrices. We will thus consider the
+    current proposals and results, and discuss the kinds of benefits that we can
+    expect in the long run. This can include making it easier to express complex
+    algorithms with complex data structures, but also improve the efficiency of the
+    execution in various ways, by using different granularities to drive the
+    available parallelism and balance tasks granularities between heterogeneous
+    resources, as well as parallelizing the tasks submissions and decoupling
+    tasks from communication."
+
