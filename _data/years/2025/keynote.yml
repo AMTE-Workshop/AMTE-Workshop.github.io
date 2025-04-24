@@ -22,32 +22,32 @@ speaker:
 title: "So, I Heard You Like Graphs:<p>
 The Journey to Strong Scaling on Hundreds of GPUs in Celerity"              # Enter the keynote title for this year
 abstract: |-           # Enter the abstract for the presentation
-  Programming efficient software for distributed memory accelerator clusters
-remains a complex challenge. The prevalent MPI+X model confronts application
-software developers with architectural details, and a need to understand and
-manage multiple layers of parallelism, memory hierarchies, and data
-distribution. Furthermore, even when this challenge is overcome - often through
-the sheer willpower of generations of PhD candidates - the resulting software is
-frequently rigid, and does not enable exploring algorithmic changes at scale
-without a substantial rewriting effort.
-<p>
-High-level runtime systems and programming models seek to abstract away much of
-this complexity, but almost invariably, this comes at a cost to either
-performance, generality, or both. Various design and implementation choices and
-optimizations have been explored aiming to minimize this cost, as the need for
-more flexible and user-friendly programming models in HPC remains pressing.
-<p>
-This talk approaches these topics from the perspective of the Celerity
-programming model and runtime system, which is designed to enable
-high-performance distributed memory accelerator computing. It provides a single,
-unified, high-level C++-based abstraction across both distributed memory
-clusters and accelerator devices. When Celerity was first introduced in 2019, it
-was capable of scaling small benchmarks with rather simple data access patterns
-up to 8 GPUs, with its true claim to fame being exceedingly low programming
-overhead over a single-GPU SYCL program. Since then, we have aimed to maintain
-the advantage in development efficacy afforded by Celerity, while dramatically
-improving the design and scalability of its runtime system, and enabling the
-programming model to support a wider range of applications.
+    Programming efficient software for distributed memory accelerator clusters
+    remains a complex challenge. The prevalent MPI+X model confronts application
+    software developers with architectural details, and a need to understand and
+    manage multiple layers of parallelism, memory hierarchies, and data
+    distribution. Furthermore, even when this challenge is overcome - often through
+    the sheer willpower of generations of PhD candidates - the resulting software is
+    frequently rigid, and does not enable exploring algorithmic changes at scale
+    without a substantial rewriting effort.
+    <p>
+    High-level runtime systems and programming models seek to abstract away much of
+    this complexity, but almost invariably, this comes at a cost to either
+    performance, generality, or both. Various design and implementation choices and
+    optimizations have been explored aiming to minimize this cost, as the need for
+    more flexible and user-friendly programming models in HPC remains pressing.
+    <p>
+    This talk approaches these topics from the perspective of the Celerity
+    programming model and runtime system, which is designed to enable
+    high-performance distributed memory accelerator computing. It provides a single,
+    unified, high-level C++-based abstraction across both distributed memory
+    clusters and accelerator devices. When Celerity was first introduced in 2019, it
+    was capable of scaling small benchmarks with rather simple data access patterns
+    up to 8 GPUs, with its true claim to fame being exceedingly low programming
+    overhead over a single-GPU SYCL program. Since then, we have aimed to maintain
+    the advantage in development efficacy afforded by Celerity, while dramatically
+    improving the design and scalability of its runtime system, and enabling the
+    programming model to support a wider range of applications.
 #   # Your abstract here...
 # materials:
 #   - title: ""          # Enter the title of the material (e.g., Slides, Video, Code)
