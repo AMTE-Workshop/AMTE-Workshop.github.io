@@ -3,10 +3,12 @@ speaker:
   affiliation: "University of Bordeaux, Laboratoire Bordelais de Recherche en Informatique (LaBRI)"
   country: "France"
 #   photo:         # Relative path to the speaker's photo, e.g., "/assets/jane_doe.png"
-#   bio: |-
-#     # Brief biography for the speaker.
-#     # Provide an overview of the speaker's background, expertise, and career highlights.
-
+   bio: |-
+      Samuel Thibault is Professor at the University of Bordeaux, and part of
+      the Inria STORM team. His research revolves around task and data transfer
+      scheduling in parallel and distributed runtime systems. He is currently focused
+      on the design of the StarPU runtime, and more particularly its scheduling
+      heuristics for heterogeneous architectures and for distributed systems.
 # title:           # Title of the invited talk, e.g., "Innovating the Future of Tech"
 # abstract: |-
 #   # Description of the talk.
