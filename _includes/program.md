@@ -5,7 +5,7 @@
 # Program Schedule
 
 <!-- Replace with the actual date of the event -->
-Date: [Insert Date Here]
+Date: {{ workshop_date }}
 
 <!-- Replace with the name of the session chair -->
 Chair: Patrick Diehl
