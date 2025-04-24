@@ -19,8 +19,7 @@ speaker:
       Innsbruck in Khronos, and a SYCL working group member. Currently, he is leading
       a project investigating automatic and transparent full-stack data compression
       in GPU cluster computing.
-title: "So, I Heard You Like Graphs:<p>
-The Journey to Strong Scaling on Hundreds of GPUs in Celerity"              # Enter the keynote title for this year
+title: "So, I Heard You Like Graphs: The Journey to Strong Scaling on Hundreds of GPUs in Celerity"              # Enter the keynote title for this year
 abstract: |-           # Enter the abstract for the presentation
     Programming efficient software for distributed memory accelerator clusters
     remains a complex challenge. The prevalent MPI+X model confronts application
