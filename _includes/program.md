@@ -35,5 +35,6 @@ Chair: [Insert Chair Name Here]
 All times are in Central European Time ([UTC+1](https://www.timeanddate.com/worldclock/{{ city }}/{{ country }})).
 
 <!-- Add a link to the complete program if available -->
-#The complete EuroPar program is available at [https://2025.euro-par.org/program/](https://2025.euro-par.org/program/).
+The complete EuroPar program is available at [https://{{ year }}.euro-par.org/program/](https://{{ year}}.euro-par.org/program/) and the workshop
+program is available at [https://{{ year }}.euro-par.org/workshops](https://{{ year }}.euro-par.org/workshops), respectively. 
 
