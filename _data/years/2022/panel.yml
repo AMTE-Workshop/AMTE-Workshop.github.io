@@ -1,15 +1,15 @@
-moderator:
-  name: Bryce Adelstein Lelbach
-  affiliation: NVIDIA
-  country: USA
+#moderator:
+#  name: Bryce Adelstein Lelbach
+#  affiliation: NVIDIA
+#  country: USA
 
-panelists:
-   - name: Hartmut Kaiser
-     affiliation: Louisiana State University
-     country: USA
-   - name: Amshu Dubey
-     affiliation: Argonne National Laboratory
-     country: USA
+#panelists:
+#   - name: Hartmut Kaiser
+#     affiliation: Louisiana State University
+#     country: USA
+#   - name: Amshu Dubey
+#     affiliation: Argonne National Laboratory
+#     country: USA
 
 # questions:
 #   - q: null
