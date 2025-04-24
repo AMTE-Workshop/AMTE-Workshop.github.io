@@ -19,7 +19,7 @@
 {{ speaker.bio }}
 
 {% if talk.title and talk.abstract %}
-### {{ talk.title }}
+<h3> {{ talk.title }} </h3>
 
 {{ talk.abstract }}
 
