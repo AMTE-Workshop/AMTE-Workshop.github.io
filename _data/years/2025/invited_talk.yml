@@ -9,7 +9,8 @@ speaker:
     scheduling in parallel and distributed runtime systems. He is currently focused
     on the design of the StarPU runtime, and more particularly its scheduling
     heuristics for heterogeneous architectures and for distributed systems.
-  title: Recursive tasks for fun and profit 
+talk:
+  title: "Recursive tasks for fun and profit" 
   abstract: |-
     Recursive tasks have been proposed in various task-based runtime systems. While
     the details vary, a lot of commonalities arise, and similar performance benefits
