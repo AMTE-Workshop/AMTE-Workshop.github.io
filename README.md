@@ -16,7 +16,7 @@ Prerequisites: Ruby & Bundler.
    bundle exec jekyll serve
    ```
 
-   Visit http://localhost:4000/<year> (e.g., `/2025`) or omit the year for the default.
+   Visit http://localhost:4000/<year> (e.g., `/2026`) or omit the year for the default.
 
 ## Site Structure
 
@@ -41,29 +41,29 @@ Prerequisites: Ruby & Bundler.
 
 ## Editing Content
 
-To update a given year (e.g., `2025`):
+To update a given year (e.g., `2026`):
 
-- **Workshop Info**: `_data/years/2025/config.yml`
-- **Call for Papers**: `_data/years/2025/cfp.yml`
-- **Committee**: `_data/years/2025/committee.yml` (`organizing` & `program`)
-- **Accepted Papers**: `_data/years/2025/papers.yml`
-- **Invited Talks**: `_data/years/2025/invited_talk.yml`
-- **Keynotes**: `_data/years/2025/keynote.yml`
-- **Panel**: `_data/years/2025/panel.yml`
+- **Workshop Info**: `_data/years/2026/config.yml`
+- **Call for Papers**: `_data/years/2026/cfp.yml`
+- **Committee**: `_data/years/2026/committee.yml` (`organizing` & `program`)
+- **Accepted Papers**: `_data/years/2026/papers.yml`
+- **Invited Talks**: `_data/years/2026/invited_talk.yml`
+- **Keynotes**: `_data/years/2026/keynote.yml`
+- **Panel**: `_data/years/2026/panel.yml`
 - **Program Schedule**: edit `_includes/program.md` (shared template) or override in `<year>/program.md`.
 - **Index & Topics**: edit `_includes/index.md`.
 
 ### Adding a New Year
 
-1. Create a new folder `2026/` and add standard pages:
+1. Create a new folder `2028/` and add standard pages:
    ```
    ---
    layout: default
-   year: "2026"
+   year: "2028"
    ---
    {% include <page>.md %}
    ```
-2. Add `_data/years/2026/` with `config.yml`, `cfp.yml`, `committee.yml`, `papers.yml`, `invited_talk.yml`, `keynote.yml`, `panel.yml`.
+2. Add `_data/years/2028/` with `config.yml`, `cfp.yml`, `committee.yml`, `papers.yml`, `invited_talk.yml`, `keynote.yml`, `panel.yml`.
 3. (Optional) Update `current_year` in `_config.yml`.
 
 ## Deployment

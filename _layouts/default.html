@@ -35,14 +35,20 @@
         </p>
         <blockquote>
             <p>
+                {% assign year_num = year | plus: 0 %}
+                {% if year_num > 2025 %}
+                Held in conjunction with <a href="https://ppam.edu.pl">PPAM {{ year }}</a><br />
+                {% else %}
                 Held in conjunction with <a href="https://{{ year }}.euro-par.org/">Euro-Par {{ year }}</a><br />
+                {% endif %}
                 {{year_config.conf_city}}
             </p>
         </blockquote>
 
         <ul>
+          <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}">Home</a></strong></li>
           <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}committee">Committee</a></strong></li>
-          <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}call-for-papers">Call for papers</a></strong></li>
+          <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}call-for-papers">Call for Papers</a></strong></li>
           {%- if year_data.papers -%}
           <li><strong><a href="{{ "/" | absolute_url }}{{ year_base }}papers">Accepted papers</a></strong></li>
           {%- endif -%}

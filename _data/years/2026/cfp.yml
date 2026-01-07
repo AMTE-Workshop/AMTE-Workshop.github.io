@@ -1,0 +1,28 @@
+description: |
+  Supercomputers have begun operating at exascale performance, and a tremendous amount of work has been invested in identifying and overcoming the challenges leading up to this milestone.
+  These challenges include load balancing, high-throughput data movement, and efficient resource utilization.
+  Asynchronous Many-Task (AMT) programming models and runtime systems have shown that these challenges can be addressed by providing mechanisms such as oversubscription, locality-aware scheduling, shared-memory execution, and data-dependence–driven execution.
+
+  This workshop explores the advantages of AMT programming on current and emerging HPC systems.
+  It will gather developers, users, and researchers to share experiences, discuss how their approaches meet the challenges posed by today's heterogeneous exascale architectures, and explore opportunities for increased performance, robustness, portability, and full-system utilization.
+
+important_dates:
+  - date: April 24, 2026 (AOE)
+    description: Submission deadline
+  - date: May 25, 2026 (AOE)
+    description: Acceptance notification
+  - date: August 30 - September 2, 2026
+    description: Workshop
+  - date: October 31, 2026 (AOE)
+    description: Revisions of accepted papers (camera-ready)
+
+submissions: |
+  Authors need to submit their work through [EasyChair](https://easychair.org/conferences/?conf=europar2025).
+  All rules of paper submission of the [PPAM 2026 conference](https://ppam.edu.pl) apply.
+  In particular:
+  * Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and up to __15__ pages, including text, the references section, appendices, and figures.
+  *	Papers presented at the Workshop will be included in the conference proceedings and published by Springer in the LNCS series after the conference.
+  *	Before the Workshop, abstracts of accepted papers will be posted on this site.
+  * At least three program committee members will review each submission.
+  * Reviews will be __double-blind__, and papers get assessed for quality, relevance, and presentation of contributions.
+  * All submitted manuscripts will be checked for originality by [iThenticate](https://www.ithenticate.com/) (papers that show an insufficient originality might be rejected without a review).

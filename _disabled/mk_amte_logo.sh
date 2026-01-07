@@ -5,9 +5,10 @@
 ################################################################################
 
 # Define the font URL and output file
-FONT_URL="https://github.com/RedHatOfficial/Overpass/releases/download/3.0.5/overpass-3.0.5.zip"
+FONT_URL="https://github.com/RedHatOfficial/Overpass/releases/download/v3.0.5/overpass-3.0.5.zip"
 FONT_NAME="Overpass-Black.ttf"
 FONT_DIR="overpass-font"
+YEAR="2026"
 
 # Download and extract the font if it doesn't already exist
 if [[ ! -f "$FONT_NAME" ]]; then
@@ -15,7 +16,7 @@ if [[ ! -f "$FONT_NAME" ]]; then
     curl -L -o overpass.zip "$FONT_URL"
     echo "Extracting font..."
     unzip -q overpass.zip -d "$FONT_DIR"
-    mv "$FONT_DIR/overpass-black.ttf" "$FONT_NAME"
+    mv "$FONT_DIR/Overpass-3.0.5/webfonts/overpass-webfont/overpass-heavy.ttf" "$FONT_NAME"
     rm -rf overpass.zip "$FONT_DIR"
     echo "Font downloaded and saved as $FONT_NAME."
 else
@@ -23,12 +24,17 @@ else
 fi
 ################################################################################
 
+
 magick -background none \
     -density 574 \
     -fill '#377cb8' \
-    -font 'Overpass-Black.ttf' \
-    label:'AMTE 2025' \
+    -font "$FONT_NAME" \
+    label:"AMTE ${YEAR}" \
     -unsharp 0x.5 \
     -gravity southeast -splice 30x25 \
     -gravity northwest -splice 30x25 \
-    assets/logo.png
+    ../assets/logo_${YEAR}.png
+
+echo "Logo created"
+
+rm "$FONT_NAME"

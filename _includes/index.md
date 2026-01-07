@@ -22,7 +22,7 @@ The workshop will focus on the following areas:
 {% assign start_year = 2021 %}
 {% assign end_year = year | minus: 1 %}
 {% if end_year >= start_year %}
-## Previous events
+## Previous Events
 
 
 {% for yr in (start_year..end_year) reversed %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-year: "2025"
+year: "2026"
 ---
 
 {% include panel.md %}

@@ -5,12 +5,12 @@ organizing:
   - name: Patrick Diehl
     affiliation: Applied Computer Science at Los Alamos National Laboratory
     country: USA
+  - name: Jonas Posner
+    affiliation: Fulda University of Applied Sciences
+    country: Germany
   - name: Claudia Fohry
     affiliation: University of Kassel
     country: Germany
-  - name: Steven R. Brandt
-    affiliation: Center for Computation & Technology at Louisiana State University
-    country: USA
   - name: Parsa Amini
     affiliation: Advanced Micro Devices, Inc.
     country: USA
@@ -73,9 +73,6 @@ program:
   - name: Nikunj Gupta
     affiliation: Amazon
     country: USA
-  - name: Jonas Posner
-    affiliation: University of Kassel
-    country: Germany
   - name: Markus Rampp
     affiliation: Max Planck Computing & Data Facility
     country: Germany
@@ -88,3 +85,12 @@ program:
   - name: Markus Rampp
     affiliation: Max Planck Computing & Data Facility
     country: Germany
+  - name: Mia Reitz
+    affiliation: University of Kassel
+    country: Germany
+  - name: Patrick Finnerty
+    affiliation: Kobe University Graduate School of System Informatics
+    country: Japan
+  - name: Steven R. Brandt
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA

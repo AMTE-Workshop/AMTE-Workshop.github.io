@@ -6,7 +6,7 @@
 {% assign speaker = talk.speaker %}
 
 {% if talk %}
-# Keynote talk
+# Keynote Talk
 
 ## Speaker
 
