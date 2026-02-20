@@ -1,2 +1,23 @@
 speaker:
-  name: "TBA"
+  name: Vicenç Beltran Querol
+  #   courtesy_title: null
+  affiliation: STAR Team, Barcelona Supercomputing Center
+  country: Spain
+  photo: /assets/vicenc_querol.png
+  bio: >
+    Vicenç Beltran Querol is a Senior Researcher at the Barcelona Supercomputing Center (BSC) and leader of the System Tools and Advanced Runtimes (STAR) group.
+    His research spans system software, parallel programming models, and performance tools for HPC systems, with a particular focus on task-based programming models.
+    He leads the design and evolution of the OmpSs-2 programming model and its ecosystem, and drives the development of key components, including runtime systems, task-aware libraries, tracing and analysis tools, and low-level tasking and threading libraries.
+    He has led and contributed to major European and industrial projects, and actively serves the community through invited talks, program committee roles, and technical reviewing.
+title: "From Single-Runtime Optimizations to System-Wide Performance: Coordinated Runtimes and Interoperable High-Performance APIs"
+abstract: |
+  Asynchronous many-task (AMT) systems are increasingly used to tackle exascale challenges such as load balancing, data movement, and efficient resource utilization. They do so by relying on advanced runtimes that support features such as locality-aware scheduling, priorities, dependency graphs, and suspension mechanisms (e.g., coroutines). However, as AMT adoption broadens and applications become more complex and component-based, the key bottleneck is no longer "how good is my runtime in isolation?", but rather how to make AMT coexist and compose with the rest of the parallel software ecosystem: high-performance APIs, fork-join models, MPI-style execution, and increasingly heterogeneous runtime stacks.
+  
+  This talk argues for a system-level view, building on recent advances in task-aware libraries and the nOS-V tasking and threading substrate. I will describe how to (i) turn established (and emerging) high-performance APIs into first-class participants in task-based execution via explicit interoperability interfaces, and (ii) coordinate multiple parallel execution layers, including AMT runtimes, fork-join runtimes, and multi-process components, in a way that reduces oversubscription and destructive interference. These contributions come together in two pillars: a user-space "hypervisor" that arbitrates resources across co-located runtimes and programming models, and a set of interoperable task-aware libraries (e.g., TAMPI, TACUDA) that preserve composability without locking applications into a single stack.
+#materials:
+#  - title: Slides
+#    url: https://github.com/jfalcou/presentations/blob/keynote/amte2024/tools_of_the_trade.pdf
+#   - title: Video
+#     url: https://www.example.com/watch?v=joel_falcou
+#   - title: Code
+#     url: https://www.example.com/joel_falcou_code
