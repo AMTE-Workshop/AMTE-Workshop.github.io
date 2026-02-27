@@ -20,8 +20,10 @@ submissions: |
   Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=ppam2026).
   All rules of paper submission of the [PPAM 2026 conference](https://ppam.edu.pl) apply.
   In particular:
-  * Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and up to __15__ pages, including text, the references section, appendices, and figures.
-  *	Papers presented at the Workshop will be included in the conference proceedings and published by Springer in the LNCS series after the conference.
+  * Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
+  * __Full Paper__ must be up to __15__ pages, including text, the references section, appendices, and figures.
+  * __Extended Abstracts__ of __4__ pages are also considered.
+  *	Only __Full__ Papers presented at the Workshop will be included in the conference proceedings and published by Springer in the LNCS series after the conference.
   *	Before the Workshop, abstracts of accepted papers will be posted on this site.
   * At least three program committee members will review each submission.
   * Reviews will be __double-blind__, and papers get assessed for quality, relevance, and presentation of contributions.
