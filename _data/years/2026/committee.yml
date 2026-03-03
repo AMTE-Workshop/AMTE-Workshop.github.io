@@ -64,9 +64,6 @@ program:
   - name: Weile Wei
     affiliation: Google
     country: USA
-  - name: Brad Chamberlain
-    affiliation: HPE
-    country: USA
   - name: Sumathi Lakshmiranganatha
     affiliation: Los Alamos National Laboratory
     country: USA
