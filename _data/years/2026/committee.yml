@@ -16,9 +16,6 @@ organizing:
     country: USA
 
 program:
-  - name: Thomas Heller
-    affiliation: Exasol
-    country: Germany
   - name: Hartmut Kaiser
     affiliation: Louisiana State University
     country: USA
@@ -28,47 +25,17 @@ program:
   - name: Roman Iakymchuk
     affiliation: Umea University
     country: Sweden
-  - name: Erwin Laure
-    affiliation: Max Planck Computing & Data Facility
-    country: Germany
   - name: Patricia Grubel
     affiliation: Los Alamos National Laboratory
     country: USA
-  - name: Vassilios Dimakopoulos
-    affiliation: University of Ioannina
-    country: Greece
-  - name: Brad Richardson
-    affiliation: Sourcery Institute
-    country: USA
-  - name: Huda Ibeid
-    affiliation: Intel
-    country: USA
-  - name: Thomas Fahringer
-    affiliation: University of Innsbruck
-    country: Austria
   - name: Pedro Valero Lara
     affiliation: Oak Ridge National Laboratory
     country: USA
-  - name: Michael Wong
-    affiliation: Codeplay Software
-    country: USA
-  - name: Dirk Pflüger
-    affiliation: University of Stuttgart
-    country: Germany
   - name: Peter Thoman
     affiliation: University of Innsbruck
     country: Austria
-  - name: Bryce Adelstein Lelbach
-    affiliation: Nvidia
-    country: USA
-  - name: Weile Wei
-    affiliation: Google
-    country: USA
   - name: Sumathi Lakshmiranganatha
     affiliation: Los Alamos National Laboratory
-    country: USA
-  - name: Nikunj Gupta
-    affiliation: Amazon
     country: USA
   - name: Markus Rampp
     affiliation: Max Planck Computing & Data Facility
@@ -76,18 +43,12 @@ program:
   - name: Joseph Schuchart
     affiliation: University of Tennessee, Knoxville
     country: USA
-  - name: Ben Bergen
-    affiliation: Los Alamos National Laboratory
-    country: USA
   - name: Markus Rampp
     affiliation: Max Planck Computing & Data Facility
     country: Germany
   - name: Mia Reitz
     affiliation: University of Kassel
     country: Germany
-  - name: Patrick Finnerty
-    affiliation: Kobe University Graduate School of System Informatics
-    country: Japan
   - name: Steven R. Brandt
     affiliation: Center for Computation & Technology at Louisiana State University
     country: USA
