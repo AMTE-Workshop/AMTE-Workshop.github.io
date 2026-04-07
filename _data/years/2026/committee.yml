@@ -43,9 +43,6 @@ program:
   - name: Joseph Schuchart
     affiliation: University of Tennessee, Knoxville
     country: USA
-  - name: Markus Rampp
-    affiliation: Max Planck Computing & Data Facility
-    country: Germany
   - name: Mia Reitz
     affiliation: University of Kassel
     country: Germany
