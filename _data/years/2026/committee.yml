@@ -20,8 +20,8 @@ program:
     affiliation: Louisiana State University
     country: USA
   - name: Dirk Pleiter
-    affiliation: KTH Royal Institute of Technology in Stockholm
-    country: Sweden
+    affiliation: University of Groningen
+    country: Netherlands
   - name: Roman Iakymchuk
     affiliation: Umea University
     country: Sweden
@@ -51,4 +51,10 @@ program:
     country: Germany
   - name: Steven R. Brandt
     affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Patrick Finnerty
+    affiliation: Kobe University Graduate School of System Informatics
+    country: Japan
+  - name: Chris Taylor
+    affiliation: Tenstorrent
     country: USA
