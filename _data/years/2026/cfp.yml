@@ -7,9 +7,9 @@ description: |
   It will gather developers, users, and researchers to share experiences, discuss how their approaches meet the challenges posed by today's heterogeneous exascale architectures, and explore opportunities for increased performance, robustness, portability, and full-system utilization.
 
 important_dates:
-  - date: April 24, 2026 (AOE)
+  - date: <s>April 24, 2026 (AOE)</s> May 8, 2026 (AOE)
     description: Submission deadline
-  - date: May 25, 2026 (AOE)
+  - date: <s>May 25, 2026 (AOE)</s> June 8, 2026 (AOE)
     description: Acceptance notification
   - date: August 30 - September 2, 2026
     description: Workshop
